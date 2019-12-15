@@ -14,12 +14,12 @@ export default class App extends PureComponent {
         { team1: new Team("Greece"), team2: new Team("Portug") },
         { team1: new Team("Italy"), team2: new Team("Spain") },
         { team1: new Team("Armenia"), team2: new Team("Russia") },
-        { team1: new Team("Norvegia"), team2: new Team("Shvedia") },
+        { team1: new Team("Poland"), team2: new Team("Belgium") },
         { team1: new Team("Gorgia"), team2: new Team("Armenia") },
         { team1: new Team("Macedonia"), team2: new Team("Austria") },
         { team1: new Team("England"), team2: new Team("USA") },
         { team1: new Team("Latvia"), team2: new Team("Litva") },
-        { team1: new Team("Kanada"), team2: new Team("Makedonia") }
+        { team1: new Team("Kanada"), team2: new Team("Ukraine") }
       ],
       minutes: 90,
       seconds: 0
@@ -92,3 +92,5 @@ export default class App extends PureComponent {
     </div>
   }
 }
+
+
